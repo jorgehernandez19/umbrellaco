@@ -1,0 +1,13 @@
+{
+    "name": "Database",
+    "description": "This is a Database role defined as JSON",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[example]"
+    ]
+}
